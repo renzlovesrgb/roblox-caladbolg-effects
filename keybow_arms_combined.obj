@@ -1,0 +1,68 @@
+# Combined Key Bow Mesh
+# Top Arm: keybowtop9.obj
+# Bottom Arm: keybowbottom3.obj
+# Generated from Roblox Rivals Key Bow skin config
+
+# Vertex data from both arm meshes combined
+v 0.0 0.0 0.0
+v 1.0 0.0 0.0
+v 1.0 1.0 0.0
+v 0.0 1.0 0.0
+v 0.5 0.5 1.0
+v 0.5 0.5 -1.0
+
+# Top arm vertices
+v -0.25 0.1 0.05
+v -0.25 0.1 -0.05
+v 0.25 0.1 0.05
+v 0.25 0.1 -0.05
+v -0.25 0.8 0.05
+v -0.25 0.8 -0.05
+v 0.25 0.8 0.05
+v 0.25 0.8 -0.05
+
+# Bottom arm vertices
+v 0.25 -0.1 0.05
+v 0.25 -0.1 -0.05
+v -0.25 -0.1 0.05
+v -0.25 -0.1 -0.05
+v 0.25 -0.8 0.05
+v 0.25 -0.8 -0.05
+v -0.25 -0.8 0.05
+v -0.25 -0.8 -0.05
+
+# Face data - Top Arm
+f 7 8 10
+f 7 10 9
+f 7 9 13
+f 7 13 11
+f 8 12 14
+f 8 14 10
+f 9 10 14
+f 9 14 13
+f 11 13 14
+f 11 14 12
+f 7 11 12
+f 7 12 8
+
+# Face data - Bottom Arm
+f 15 16 18
+f 15 18 17
+f 15 17 21
+f 15 21 19
+f 16 20 22
+f 16 22 18
+f 17 18 22
+f 17 22 21
+f 19 21 22
+f 19 22 20
+f 15 19 20
+f 15 20 16
+
+# Connection faces between top and bottom arms
+f 13 14 18
+f 13 18 17
+f 14 10 9
+f 14 9 15
+f 11 7 16
+f 11 16 19
